@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 0px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.comprar {
+  background: rgb(232, 21, 180);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.item {
+  background: rgb(244, 244, 244);
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
